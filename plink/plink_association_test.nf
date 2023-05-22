@@ -12,7 +12,7 @@ include {
     plinkRecessiveAssociation;
     plinkGenotypicAssociation;
     plinkHethomAssociation;
-} from "${projectDir}/modules/associationTests.nf"
+} from "${projectDir}/modules/association_tests.nf"
 
 workflow {
     println "\nAssociaiton workflow starts here...\n"
