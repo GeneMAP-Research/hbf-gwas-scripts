@@ -30,7 +30,7 @@ process adjustAssociationTestPvalues() {
         publishDir path: "${params.outputDir}", mode: 'copy'
         path "${plinkAssoc}.adjusted.txt"
     script:
-        template 'adjustPlinkAssociationTestPvalues.sh'
+        template 'adjust_association_test_pvalues.sh'
 }
 
 
