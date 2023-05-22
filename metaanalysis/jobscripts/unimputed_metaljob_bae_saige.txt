@@ -1,0 +1,51 @@
+
+# Meta-analysis weighted by standard error does not work well
+# because different studies used very different transformations
+SCHEME   STDERR
+
+#   SEPARATOR        [WHITESPACE|COMMA|BOTH|TAB] (default = WHITESPACE)
+
+# Not sure if genomic control is a good idea, given the large
+# number of true associations in these three regions ...
+# GENOMICCONTROL ON
+
+# To help identify allele flips, it can be useful to track
+# allele frequencies in the meta-analysis.
+AVERAGEFREQ ON
+MINMAXFREQ ON
+FREQLABEL   Allele2
+FREQ     Allele2_freq
+
+VERBOSE ON
+
+MARKER   SNP
+WEIGHT   N
+ALLELE   Allele2 Allele1
+EFFECT   BETA
+STDERR   SE
+PVAL     P
+
+PROCESS  /mnt/lustre/groups/CBBI1243/KEVIN/gwasdata/cam_tz_merge/meta_analysis/input/cm_unimputed.assoc
+
+MARKER   SNP
+WEIGHT   N
+ALLELE   Allele2 Allele1
+EFFECT   BETA
+STDERR   SE
+PVAL     P
+
+PROCESS  /mnt/lustre/groups/CBBI1243/KEVIN/gwasdata/cam_tz_merge/meta_analysis/input/tz_unimputed.assoc
+
+MARKER   SNP
+WEIGHT   N
+ALLELE   Allele2 Allele1
+EFFECT   BETA
+STDERR   SE
+PVAL     P
+
+PROCESS  /mnt/lustre/groups/CBBI1243/KEVIN/gwasdata/cam_tz_merge/meta_analysis/input/bae_hg19.assoc
+
+OUTFILE   /mnt/lustre/groups/CBBI1243/KEVIN/gwasdata/cam_tz_merge/meta_analysis/output/cm_tz_bae_unimputed_metaanalysis .tbl
+LOGPVALUE   OFF
+ANALYZE   HETEROGENEITY
+QUIT
