@@ -116,7 +116,7 @@ Summary of Cameroon data
        line = 1
     )
 
-![Fig.1: cm gender distribution]("../figures/cm_sex_hist.svg")
+![Fig.1: cm gender distribution](../figures/cm_sex_hist.svg)
 *Figue 1. Proportion of females and males in the discovery dataset of
 Cameroonian inidividuals*
 
@@ -211,7 +211,7 @@ Summary of Tanzania data
        line = 1
     )
 
-![Fig.2: tz gender distribution]("../figures/cm_sex_hist.svg")
+![Fig.2: tz gender distribution](../figures/cm_sex_hist.svg)
 *Figure 2. Proportion of females and males in the replication dataset of
 Tanzanian inidividuals*
 
@@ -295,7 +295,7 @@ HbF normalization (Cubic root)
     plot(tz.nhbf.den, ylab="", main="Tanzania normalized HbF")
     polygon(tz.nhbf.den, col=5)
 
-![Fig.3: HbF normalization]("../figures/cm_tz_hbf_normaliztion.svg")
+![Fig.3: HbF normalization](../figures/cm_tz_hbf_normaliztion.svg)
 *Figure 3. HbF distribution in Cameroonian and Tanzanian study
 participants before and after normalization*
 
