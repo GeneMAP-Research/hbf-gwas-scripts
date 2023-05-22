@@ -118,7 +118,7 @@ Summary of Cameroon data
 
 <p align="center">
   <img src="../figures/cm_sex_hist.svg" alt="Fig.1: cm gender distribution"><br>
-  <em><i>Figue 1. Proportion of females and males in the discovery dataset of Cameroonian inidividuals</i></em>
+  <em><i>Figure 1. Proportion of females and males in the Cameroonian discovery dataset</i></em>
 </p>
 
     cm %>% select(Stroke) %>% table()               # Number of patients with at least one overt stroke
@@ -212,10 +212,10 @@ Summary of Tanzania data
        line = 1
     )
 
-![Fig.2: tz gender distribution](../figures/cm_sex_hist.svg)
-
-*Figure 2. Proportion of females and males in the replication dataset of
-Tanzanian inidividuals*
+<p align="center">
+  <img src="../figures/tz_sex_hist.svg" alt="Fig.2: tz gender distribution"><br>
+  <em><i>Figure 2. Proportion of females and males in the Tanzanian replication dataset</i></em>
+</p>
 
 ------------------------------------------------------------------------
 
@@ -297,8 +297,8 @@ HbF normalization (Cubic root)
     plot(tz.nhbf.den, ylab="", main="Tanzania normalized HbF")
     polygon(tz.nhbf.den, col=5)
 
-![Fig.3: HbF normalization](../figures/cm_tz_hbf_normaliztion.svg)
-
-*Figure 3. HbF distribution in Cameroonian and Tanzanian study
-participants before and after normalization*
+<p align="center">
+  <img src="../figures/cm_tz_hbf_normaliztion.svg" alt="Fig.3: HbF normalization"><br>
+  <em><i>Figure 3. HbF distribution in Cameroonian and Tanzanian study participants before and after normalization</i></em>
+</p>
 
