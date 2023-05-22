@@ -117,14 +117,9 @@ Summary of Cameroon data
     )
 
 <p align="center">
-<img src="../figures/cm_sex_hist.svg" alt="Fig.1: cm gender distribution">
+  <img src="../figures/cm_sex_hist.svg" alt="Fig.1: cm gender distribution">
+  *Figue 1. Proportion of females and males in the discovery dataset of Cameroonian inidividuals*
 </p>
-
-![Fig.1: cm gender distribution](../figures/cm_sex_hist.svg)
-
-*Figue 1. Proportion of females and males in the discovery dataset of
-Cameroonian inidividuals*
-
 
     cm %>% select(Stroke) %>% table()               # Number of patients with at least one overt stroke
 
