@@ -117,7 +117,7 @@ Summary of Cameroon data
     )
 
 <p align="center">
-  <img src="../figures/cm_sex_hist.svg" alt="Fig.1: cm gender distribution">
+  <img src="../figures/cm_sex_hist.svg" alt="Fig.1: cm gender distribution"><br>
   *Figue 1. Proportion of females and males in the discovery dataset of Cameroonian inidividuals*
 </p>
 
