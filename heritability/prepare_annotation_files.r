@@ -13,12 +13,6 @@ if(length(args)<1) {
   message("bim file: ", bim)
 
   ann <- fread(
-    "/mnt/lustre/groups/CBBI1243/KEVIN/gwasdata/heritability/annotations/1KG.all.annot.gz",
-    h = T,
-    nThread = 24
-  )
-
-  ann <- fread(
     "/mnt/lustre/groups/CBBI1243/KEVIN/gwasdata/heritability/annotations/1KG.all.annot.gz", 
     h = T, 
     nThread = 24
